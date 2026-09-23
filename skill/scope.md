@@ -37,3 +37,4 @@ rubric accepts, never to change a verdict: fit cannot rescue an issue
 your rubric rejects, and cannot sink one it accepts. -->
 
 (Write a few sentences here.)
+I have experience with Python as my primary language with additional knowledge of data structures. I want to improve my ability to identify the root of an issue through tracing. I am looking for good-first-issue level and want to work toward a contribution that helps me understand open source workflows, not necessarily a super challenging bug fix.

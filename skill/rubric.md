@@ -34,7 +34,10 @@ will fail eval issues designed around that family.
 
 | Check | Evidence | Pass condition | Weight |
 |---|---|---|---|
-|  |  |  |  |
+|issue-spec| one proposed change with spec in repo-facts | one proposed change with spec; issue not being debating in comments | required |
+|current-issue| reply time in "last 5 default-branch commits" under Repo facts | a reply within 30 days | preferred |
+|maintainer-responsive| "maintainer first-response sample" under Repo facts |a reply within 30 days| preferred |
+|unclaimed| "linked PRs:" with state per PR, plus any PRs mentioned in the Comments section | linked PRs: none or claiming of issue in comments | required |
 
 ## Verdict rule
 
@@ -42,3 +45,4 @@ will fail eval issues designed around that family.
 unclear is treated. Example shape (write your own): "accept if every
 required check passes; preferred checks never change the verdict, they
 rank accepted issues; unclear counts as fail." -->
+Accept if every required check passes; fail is one required skill fails or is unclear; preferred checks never change the verdict, they rank accepted issues; unclear for a required check counts as a fail
